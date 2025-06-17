@@ -94,16 +94,16 @@ params:
   socialIcons:
     - name: github
       title: View Source on Github
-      url: "https://github.com/adityatelange/hugo-PaperMod"
+      url: "https://github.com/Samarth11-A"
     - name: Discord
       title: Join discord community
       url: "https://discord.gg/ahpmTvhVmp"
     - name: X
       title: Share PaperMod on X/Twitter
       url: "https://x.com/intent/tweet/?text=Checkout%20Hugo%20PaperMod%20%E2%9C%A8%0AA%20fast,%20clean,%20responsive%20Hugo%20theme.&url=https://github.com/adityatelange/hugo-PaperMod&hashtags=Hugo,PaperMod"
-    - name: KoFi
-      title: Buy me a Ko-Fi :)
-      url: "https://ko-fi.com/adityatelange"
+    - name: LinkdIn
+      title: Connect with me on LinkedIn
+      url: "www.linkedin.com/in/samarth-achwale-15b525220"
 
   editPost:
     URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
