@@ -1,7 +1,8 @@
 # If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 baseURL: "Samarth11-A.github.io"
-title: PaperMod
+title: Samarth's Website
+languageCode: "en"
 theme: [PaperMod]
 
 enableInlineShortcodes: true
@@ -31,17 +32,16 @@ languages:
       series: series
     menu:
       main:
-        - name: Archive
-          url: archives
+        - name: Projects
+          url: projects/
           weight: 5
         - name: Search
           url: search/
           weight: 10
-        - name: Tags
-          url: tags/
-          weight: 10
-        - name: WiKi
-          url: https://github.com/adityatelange/hugo-PaperMod/wiki/
+        - name: About_me
+          url: aboutme/
+          weight: 15
+
 
 
 
@@ -93,17 +93,12 @@ params:
       - This is good
   socialIcons:
     - name: github
-      title: View Source on Github
+      title: Check out my GitHub
+      icon: github.svg
       url: "https://github.com/Samarth11-A"
-    - name: Discord
-      title: Join discord community
-      url: "https://discord.gg/ahpmTvhVmp"
-    - name: X
-      title: Share PaperMod on X/Twitter
-      url: "https://x.com/intent/tweet/?text=Checkout%20Hugo%20PaperMod%20%E2%9C%A8%0AA%20fast,%20clean,%20responsive%20Hugo%20theme.&url=https://github.com/adityatelange/hugo-PaperMod&hashtags=Hugo,PaperMod"
-    - name: LinkdIn
+    - name: linkedin
       title: Connect with me on LinkedIn
-      url: "www.linkedin.com/in/samarth-achwale-15b525220"
+      url: "https://www.linkedin.com/in/samarth-achwale-15b525220"
 
   editPost:
     URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
